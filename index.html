@@ -632,6 +632,21 @@ input { font-family:var(--font); outline:none; }
 <div class="toast-container" id="toastContainer"></div>
 
 <!-- FOOTER -->
+<div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    ```
+    *Esto añadirá un selector en tu web que permitirá a los usuarios cambiar todo el sitio a español con un clic.*
+
+### 3. Consejo Pro: Usar un archivo JSON
+Si tu web crece, lo mejor es separar los datos del diseño. Puedes crear un archivo llamado `animes.json` donde guardes los títulos y descripciones ya traducidos, y hacer que tu `index.html` los lea automáticamente.
+
+**¿Qué opción prefieres intentar?** Si me pasas un fragmento de cómo tienes escrita una de tus tarjetas de anime ahora mismo, puedo darte el código exacto ya traducido para que solo lo pegues.
+  
 <footer class="footer">
   <div class="footer-inner">
     <div>
